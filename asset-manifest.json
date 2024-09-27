@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio./static/css/main.44320172.css",
-    "main.js": "/Portfolio./static/js/main.83f7381c.js",
-    "static/js/453.acca0757.chunk.js": "/Portfolio./static/js/453.acca0757.chunk.js",
-    "static/media/GowunBatang-Regular.ttf": "/Portfolio./static/media/GowunBatang-Regular.5bb8c474edafaa216ee7.ttf",
-    "static/media/NanumBarunGothicLight.ttf": "/Portfolio./static/media/NanumBarunGothicLight.644909786861639c2cf6.ttf",
-    "static/media/NanumBarunGothicBold.ttf": "/Portfolio./static/media/NanumBarunGothicBold.d2409cf29861098bad74.ttf",
-    "static/media/NanumBarunGothic.ttf": "/Portfolio./static/media/NanumBarunGothic.06c821535273ae7f7a51.ttf",
-    "static/media/me.jpg": "/Portfolio./static/media/me.2806ea6c14c27d6623b1.jpg",
-    "static/media/NanumSquareR.ttf": "/Portfolio./static/media/NanumSquareR.924c33f60f994924964c.ttf",
-    "static/media/fire_with_snow.gif": "/Portfolio./static/media/fire_with_snow.b2c717789bda727bb7f7.gif",
-    "static/media/Itim-Regular.ttf": "/Portfolio./static/media/Itim-Regular.38b1e6579a4ae98f4318.ttf",
-    "static/media/Pacifico-Regular.ttf": "/Portfolio./static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
-    "static/media/me_profile.jpg": "/Portfolio./static/media/me_profile.bcdf63ccd424c5078e68.jpg",
-    "static/media/NotoSansThai-VariableFont_wdth,wght.ttf": "/Portfolio./static/media/NotoSansThai-VariableFont_wdth,wght.1e59d809989f6b9c505a.ttf",
-    "index.html": "/Portfolio./index.html",
-    "main.44320172.css.map": "/Portfolio./static/css/main.44320172.css.map",
-    "main.83f7381c.js.map": "/Portfolio./static/js/main.83f7381c.js.map",
-    "453.acca0757.chunk.js.map": "/Portfolio./static/js/453.acca0757.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.f52ae617.css",
+    "main.js": "/Portfolio/static/js/main.fea63c20.js",
+    "static/js/453.acca0757.chunk.js": "/Portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/GowunBatang-Regular.ttf": "/Portfolio/static/media/GowunBatang-Regular.5bb8c474edafaa216ee7.ttf",
+    "static/media/NanumBarunGothicLight.ttf": "/Portfolio/static/media/NanumBarunGothicLight.644909786861639c2cf6.ttf",
+    "static/media/NanumBarunGothicBold.ttf": "/Portfolio/static/media/NanumBarunGothicBold.d2409cf29861098bad74.ttf",
+    "static/media/NanumBarunGothic.ttf": "/Portfolio/static/media/NanumBarunGothic.06c821535273ae7f7a51.ttf",
+    "static/media/me.jpg": "/Portfolio/static/media/me.2806ea6c14c27d6623b1.jpg",
+    "static/media/NanumSquareR.ttf": "/Portfolio/static/media/NanumSquareR.924c33f60f994924964c.ttf",
+    "static/media/fire_with_snow.gif": "/Portfolio/static/media/fire_with_snow.b2c717789bda727bb7f7.gif",
+    "static/media/Itim-Regular.ttf": "/Portfolio/static/media/Itim-Regular.38b1e6579a4ae98f4318.ttf",
+    "static/media/Pacifico-Regular.ttf": "/Portfolio/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
+    "static/media/me_profile.jpg": "/Portfolio/static/media/me_profile.bcdf63ccd424c5078e68.jpg",
+    "static/media/NotoSansThai-VariableFont_wdth,wght.ttf": "/Portfolio/static/media/NotoSansThai-VariableFont_wdth,wght.1e59d809989f6b9c505a.ttf",
+    "index.html": "/Portfolio/index.html",
+    "main.f52ae617.css.map": "/Portfolio/static/css/main.f52ae617.css.map",
+    "main.fea63c20.js.map": "/Portfolio/static/js/main.fea63c20.js.map",
+    "453.acca0757.chunk.js.map": "/Portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44320172.css",
-    "static/js/main.83f7381c.js"
+    "static/css/main.f52ae617.css",
+    "static/js/main.fea63c20.js"
   ]
 }
