@@ -1,0 +1,114 @@
+@font-face {
+    font-family:"nanum_b";
+    src : url(../../assets/fonts/NanumBarunGothicBold.ttf);
+}
+
+@font-face {
+    font-family:"nanum";
+    src : url(../../assets/fonts/NanumBarunGothic.ttf);
+}
+
+
+@font-face {
+    font-family:"nanum_l";
+    src : url(../../assets/fonts/NanumBarunGothicLight.ttf);
+}
+
+@font-face {
+    font-family:"nanum_s";
+    src : url(../../assets/fonts/NanumSquareR.ttf);
+}
+
+@font-face {
+    font-family:"profile";
+    src : url(../../assets/fonts/GowunBatang-Regular.ttf);
+}
+
+/* 배경 및 메인 설정 */
+.wholecontent5{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+.intro_part5 {
+    width: 100%;
+    height: 5vh;
+}
+
+.main_5{
+    background-color : #4c4b4d;
+    position:absolute;
+    display:flex;
+    width:100%;
+    height:100%;
+    top:32vh; /* 여기도 조정할 필요가 있을 수 있음 */
+    color:black;
+    padding-left:7vw;
+    font-size:3vw;
+}
+
+.skill_contents5{
+    font-size:1.5vw;
+}
+
+.award_contents5{
+    font-size:1.5vw;
+}
+
+/* 메인 섹션 설정 */
+.section5_main {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+    position: relative;
+    width: 50vw;
+    height: 80%;
+    padding-left: 45vw;
+    top: -15vh; /* 추가: section5_main을 위로 올리기 위해 top 값 조정 */
+}
+
+/* 애니메이션 */
+.slide-in {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide-out {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* 공백 줄이기 위해 padding-top 값 조정 */
+.section5_title, .section5_title2 {
+    font-size: 4vw;
+    font-weight: bold;
+    position: absolute;
+    font-family:nanum_b;
+    line-height : 1.5;
+    left: 6.5vw;
+    color: White;
+}
+
+/* 공백 줄이기 위해 padding-top 값 조정 */
+.section5_title2 {
+    padding-top : 5vh;
+    font-family: nanum_l;
+    font-size: 1.6vw;
+}
+
+.toggle_button5 {
+    margin-left: 1.5vw;
+    margin-top: 4vw;
+    background-color: white;
+    border-radius : 1vw;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow {
+    width: 50px;
+    height: auto;
+}

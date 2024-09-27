@@ -1,0 +1,429 @@
+@font-face {
+    font-family:"nanum_b";
+    src : url(../../assets/fonts/NanumBarunGothicBold.ttf);
+}
+
+@font-face {
+    font-family:"nanum";
+    src : url(../../assets/fonts/NanumBarunGothic.ttf);
+}
+
+
+@font-face {
+    font-family:"nanum_l";
+    src : url(../../assets/fonts/NanumBarunGothicLight.ttf);
+}
+
+@font-face {
+    font-family:"nanum_s";
+    src : url(../../assets/fonts/NanumSquareR.ttf);
+}
+
+@font-face {
+    font-family:"profile";
+    src : url(../../assets/fonts/GowunBatang-Regular.ttf);
+}
+
+
+
+
+.timeline-container {
+    position: relative;
+    font-family : nanum_l;
+    width: 100%;
+    height: 400vh;
+    padding: 0;
+    padding-left: 5vw;
+    background: linear-gradient( #D0CCE5, #E5C7D1);
+}
+  
+.content{
+    width:100%;
+    height:100%;
+}
+  .timeline-line {
+    position: absolute;
+    left: 50.3%;
+    top: 0;
+    width: 4px;
+    height: 400vh;
+    background-color: #007BFF;
+    transform: translateX(-50%);
+  }
+  .year_sign{
+    color:black;
+    position:absolute;
+    font-size:1vw;
+    left:48vw
+  }
+  .timeline-item {
+    position: relative;
+    width: 45%;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    opacity: 0;
+    transform: translateY(50px);
+    color:black;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .timeline-item.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .timeline-item h3 {
+    margin: 0;
+    font-size: 1.5vw;
+  }
+  
+  .timeline-item p {
+    margin-top: 1px;
+    font-size: 1.2vw;
+    color: #555;
+  }
+  
+  .timeline-item .date {
+    font-size: 1.3vw;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  .timeline-item.left {
+    width: 49vw;
+    left: 0;
+    text-align: right;
+    padding-left:10vw;
+  }
+  
+  .timeline-item.right {
+    left: 50%;
+    margin-left : 1vw;
+    text-align: left;
+    padding-right:10vw;
+  }
+  
+  .timeline-item.left::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 7px solid transparent;
+    border-left-color: #007BFF;
+  }
+  
+  .timeline-item.right::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 7px solid transparent;
+    border-right-color: #007BFF;
+  }
+
+  .M_2020_01 {
+    position: absolute;
+    top: 1.6%;
+  }
+
+  .M_2020_02 {
+    position: absolute;
+    top: 3.2%;
+  }
+
+  .M_2020_03 {
+    position: absolute;
+    top: 4.8%;
+  }
+
+  .M_2020_04 {
+    position: absolute;
+    top: 6%;
+  }
+
+  .M_2020_05 {
+    position: absolute;
+    top: 7.6%;
+  }
+
+  .M_2020_06 {
+    position: absolute;
+    top: 9.2%;
+  }
+
+  .M_2020_07 {
+    position: absolute;
+    top: 10.8%;
+  }
+
+  .M_2020_08 {
+    position: absolute;
+    top: 12.4%;
+  }
+
+  .M_2020_09 {
+    position: absolute;
+    top: 14%;
+  }
+
+  .M_2020_10 {
+    position: absolute;
+    top: 15.6%;
+  }
+
+  .M_2020_11 {
+    position: absolute;
+    top: 17.2%;
+  }
+
+  .M_2020_12 {
+    position: absolute;
+    top: 18.8%;
+  }
+
+  .M_2021_01 {
+    position: absolute;
+    top: 20.4%;
+  }
+
+  .M_2021_02 {
+    position: absolute;
+    top: 22%;
+  }
+
+  .M_2021_03 {
+    position: absolute;
+    top: 23.6%;
+  }
+
+  .M_2021_04 {
+    position: absolute;
+    top: 25.2%;
+  }
+
+  .M_2021_05 {
+    position: absolute;
+    top: 26.8%;
+  }
+
+  .M_2021_06 {
+    position: absolute;
+    top: 28.4;
+  }
+
+  .M_2021_07 {
+    position: absolute;
+    top: 30%;
+  }
+
+  .M_2021_08 {
+    position: absolute;
+    top: 31.6%;
+  }
+
+  .M_2021_09 {
+    position: absolute;
+    top: 33.2%;
+  }
+
+  .M_2021_10 {
+    position: absolute;
+    top: 34.8%;
+  }
+
+  .M_2021_11 {
+    position: absolute;
+    top: 36.6%;
+  }
+
+  .M_2021_12 {
+    position: absolute;
+    top: 38.2%;
+  }
+
+  .M_2022_01 {
+    position: absolute;
+    top: 39.8%;
+  }
+
+  .M_2022_02 {
+    position: absolute;
+    top: 41.4%;
+  }
+
+  .M_2022_03 {
+    position: absolute;
+    top: 43%;
+  }
+
+  .M_2022_04 {
+    position: absolute;
+    top: 44.6%;
+  }
+
+  .M_2022_05 {
+    position: absolute;
+    top: 46.2%;
+  }
+
+  .M_2022_06 {
+    position: absolute;
+    top: 47.8;
+  }
+
+  .M_2022_07 {
+    position: absolute;
+    top: 49.4%;
+  }
+
+  .M_2022_08 {
+    position: absolute;
+    top: 51%;
+  }
+
+  .M_2022_09 {
+    position: absolute;
+    top: 52.6%;
+  }
+
+  .M_2022_10 {
+    position: absolute;
+    top: 54.2%;
+  }
+
+  .M_2022_11 {
+    position: absolute;
+    top: 55.8%;
+  }
+
+  .M_2022_12 {
+    position: absolute;
+    top: 57.4%;
+  }
+
+  
+  .M_2023_01 {
+    position: absolute;
+    top: 59.0%;
+  }
+
+  .M_2023_02 {
+    position: absolute;
+    top: 60.6%;
+  }
+
+  .M_2023_03 {
+    position: absolute;
+    top: 62.2%;
+  }
+
+  .M_2023_04 {
+    position: absolute;
+    top: 63.8%;
+  }
+
+  .M_2023_05 {
+    position: absolute;
+    top: 65.6%;
+  }
+
+  .M_2023_06 {
+    position: absolute;
+    top: 67.2%;
+  }
+
+  .M_2023_07 {
+    position: absolute;
+    top: 68.8%;
+  }
+
+  .M_2023_08 {
+    position: absolute;
+    top: 70.4%;
+  }
+
+  .M_2023_09 {
+    position: absolute;
+    top: 72%;
+  }
+
+  .M_2023_10 {
+    position: absolute;
+    top: 73.6%;
+  }
+
+  .M_2023_11 {
+    position: absolute;
+    top: 75.2%;
+  }
+
+  .M_2023_12 {
+    position: absolute;
+    top: 76.8%;
+  }
+
+  .M_2024_01 {
+    position: absolute;
+    top: 78.4%;
+  }
+
+  .M_2024_02 {
+    position: absolute;
+    top: 80%;
+  }
+
+  .M_2024_03 {
+    position: absolute;
+    top: 81.6%;
+  }
+
+  .M_2024_04 {
+    position: absolute;
+    top: 83.2%;
+  }
+
+  .M_2024_05 {
+    position: absolute;
+    top: 84.8%;
+  }
+
+  .M_2024_06 {
+    position: absolute;
+    top: 86.6%;
+  }
+
+  .M_2024_07 {
+    position: absolute;
+    top: 88.4;
+  }
+
+  .M_2024_08 {
+    position: absolute;
+    top: 90%;
+  }
+
+  .M_2024_09 {
+    position: absolute;
+    top: 91.6%;
+  }
+
+  .M_2024_10 {
+    position: absolute;
+    top: 93.2%;
+  }
+
+  .M_2024_11 {
+    position: absolute;
+    top: 94.8%;
+  }
+
+  .M_2024_12 {
+    position: absolute;
+    top: 96.6%;
+  }
+
+
+

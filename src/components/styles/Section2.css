@@ -1,0 +1,153 @@
+@font-face {
+    font-family:"nanum_b";
+    src : url(../../assets/fonts/NanumBarunGothicBold.ttf);
+}
+
+@font-face {
+    font-family:"nanum";
+    src : url(../../assets/fonts/NanumBarunGothic.ttf);
+}
+
+
+@font-face {
+    font-family:"nanum_l";
+    src : url(../../assets/fonts/NanumBarunGothicLight.ttf);
+}
+
+@font-face {
+    font-family:"nanum_s";
+    src : url(../../assets/fonts/NanumSquareR.ttf);
+}
+
+@font-face {
+    font-family:"profile";
+    src : url(../../assets/fonts/GowunBatang-Regular.ttf);
+}
+
+
+.my_pic{
+    padding-top : 5vw;
+    width: 25vw;
+}
+
+
+.child_pic{
+    padding-left:5vw;
+}
+
+.child_text_main{
+    padding-top:5vw;
+}
+
+.introduce_me{
+    font-family: nanum_l;
+    padding-bottom : 20px;
+}
+.job{
+    font-family: nanum_b;
+    padding-bottom : 10px;
+}
+
+.profile_description{
+    line-height: 1.5;
+    font-family:nanum;
+    font-weight : 500;
+    font-size : 2vw;
+}
+
+.profile_description2{
+    line-height: 1.5;
+    font-family:nanum;
+    font-weight : 500;
+    font-size : 1vw;
+}
+
+
+.section2_title, .section2_title2, .section2_title3 {
+    padding-left: 2vw;
+    font-size: 3vw;
+    font-weight: bold;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    position: absolute;
+    /* background : black; */
+    width: 90%;
+    top: 30px;
+    left:50px;
+    color : Black;
+}
+
+.Profile {
+    padding-top:3vh;
+    top : 0px;
+    font-family : profile;
+}
+.section2_main {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+    /* background: blue; */
+    position: relative; /* 같은 위치에 겹쳐진 두 섹션 */
+    width:50vw;
+    height: 70vh;
+    padding-left:45vw;
+}
+.slide-in {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.explain_head {
+    padding-top:5vh;
+    font-family : nanum_b;
+    font-size : 3vw;
+}
+
+.explain_me {
+    padding-right: 3vw;
+    font-family : nanum_l;
+    font-size : 1.5vw;
+    line-height : 1.6;
+}
+
+.slide-out {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.hidden {
+    opacity:0;
+}
+
+.shown {
+    opacity:1;
+}
+.changing_text {
+    display: inline-block;
+    text-decoration: underline; /* 밑줄 적용 */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.toggle_button {
+    fill:none;
+    margin-left: 3vw;
+    margin-top : 13vw;
+    background-color : transparent;
+    cursor: pointer;
+    border: none;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.arrow {
+    width : 4vw;
+}
+.animate {
+    transform: translateY(-100%); /* 위아래로 움직이는 효과 */
+    opacity: 0; /* 서서히 사라지게 */
+}
+
+.changing_text.animate {
+    transform: translateY(0); /* 원래 위치로 */
+    opacity: 1; /* 다시 나타나게 */
+}
