@@ -1,0 +1,412 @@
+@font-face {
+    font-family:"nanum_b";
+    src : url(../../assets/fonts/NanumBarunGothicBold.ttf);
+}
+
+@font-face {
+    font-family:"nanum";
+    src : url(../../assets/fonts/NanumBarunGothic.ttf);
+}
+
+
+@font-face {
+    font-family:"nanum_l";
+    src : url(../../assets/fonts/NanumBarunGothicLight.ttf);
+}
+
+@font-face {
+    font-family:"nanum_s";
+    src : url(../../assets/fonts/NanumSquareR.ttf);
+}
+
+@font-face {
+    font-family:"profile";
+    src : url(../../assets/fonts/GowunBatang-Regular.ttf);
+}
+
+.image-section{
+    width:50vw;
+}
+
+.im2{
+    width:10vw;
+}
+.im3{
+    width:4vw;
+}
+
+.wholecontent8{
+    padding-top: 15vh;
+    width:100%;
+    height:100%;
+}
+.main_8_content{
+    font-family: nanum;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 2vh; /* 텍스트와 이미지 사이 간격 */
+
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 80%; /* 이미지 크기 조정 */
+    height: auto;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.image-row img {
+    width: 30vw; /* 병렬 이미지 크기 설정 */
+    height: auto;
+}
+
+figcaption {
+    font-size: 1.5vw;
+    font-family: nanum_l;
+    color: black;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.section8_main {
+    padding-top:10vh;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+    position: relative;
+    width: 50vw;
+    height: 80%;
+    padding-left: 50vw;
+    top: -15vh; /* 추가: section5_main을 위로 올리기 위해 top 값 조정 */
+    background-color : transparent;
+}
+
+.slide-in {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide-out {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.section8_title, .section8_title2 {
+    font-size: 3.5vw;
+    font-weight: bold;
+    position: absolute;
+    font-family:nanum_b;
+    line-height : 1.5;
+    left: 10vw;
+    color: white;
+}
+
+.section8_title2 {
+    padding-top : 5vh;
+    font-family: nanum_l;
+    left:9vw;
+    font-size: 1.4vw;
+    line-height : 1.6;
+}
+
+.toggle_button6 {
+    margin-left: 1.5vw;
+    margin-top: 4vw;
+    border-radius : 2cqw;
+    color: white;
+    background-color : white;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow {
+    width: 50px;
+    height: auto;
+}
+
+.imgContainer8{
+    padding-top:10vh;
+    width: 4vw;
+}
+
+.main_image{
+    width: 70vw;
+}
+.soar_image{
+    padding-top:2vh;
+    width:39vw;
+}
+
+.flight1{
+    height: 60vh;
+}
+
+.flight2{
+    height: 60vh;
+}
+
+.project_description8{
+    color : black;
+    font-family: nanum_b;
+    font-size:2vw;
+    padding-top : 10vh;
+    padding-left:8vw;
+    padding-right:8vw;
+    background-color: white;
+    width:100%;
+    height : 260vh;
+    line-height : 1.4;
+}
+
+.project_description8_adds{
+    color : black;
+    font-family: nanum_b;
+    font-size:2vw;
+    padding-top : 10vh;
+    padding-left:8vw;
+    padding-right:8vw;
+    background-color: white;
+    width:100%;
+    height : 274vh;
+    line-height : 1.4;
+}
+
+#adds_graph{
+    width : 53vw;
+    padding-bottom : 1vh;
+}
+
+.project_description8_2{
+    color : black;
+    font-family: nanum_b;
+    font-size:2vw;
+    padding-top : 10vh;
+    padding-left:8vw;
+    padding-right:8vw;
+    background-color: rgb(245, 245, 245);
+    width:100%;
+    height : 115vh;
+}
+.ha_photo{
+    width:15vw;
+}
+
+.ha_photo2{
+    width:17vw;
+}
+
+
+#ha_photo_box{
+    padding-top: 4.2vh;
+    padding-right: 4.2vw;
+}
+#hwua_vid {
+    padding-left: 4.5vw;
+    padding-top: 4vh;
+}
+#auto_video{
+    width: 50vw;
+}
+
+#auto_video2
+{
+    width: 40vw;
+
+}
+
+#smartcar_vid{
+    padding-left: 4.5vw;
+    padding-top: 4vh;
+}
+
+#smartcar_photo_box{
+    width: 22vw;
+    padding-top: 7vh;
+}
+.project_description8_3{
+    color : black;
+    font-family: nanum_b;
+    font-size:2vw;
+    padding-top : 10vh;
+    padding-left:8vw;
+    padding-right:8vw;
+    background-color: rgb(235, 235, 235);
+    width:100%;
+    height : 110vh;
+}
+.vidContainer8{
+    padding-top:10vh;
+    display: flex; /* 추가: Flexbox 사용 */
+    justify-content: flex-end; /* 비디오를 오른쪽으로 정렬 */
+    padding-right: 25vw; /* 추가: 오른쪽으로 더 공간 확보 */
+    padding-left: 0; /* padding-left를 30vw에서 0으로 줄임 */
+    width: 100%; /* 필요에 따라 width 값을 설정 */
+}
+
+.small_name{
+    position:absolute;
+    font-size:1.5vw;
+    font-family : nanum_l;
+    left: 8%;
+}
+
+.projectName{
+    bottom:0;
+}
+
+.project_explanation8{
+    font-size : 1.3vw;
+    font-family: nanum;
+    padding-top: 5vh;
+    line-height : 1.4;
+}
+
+#drone-video{
+    width:40vw;
+}
+
+#adds-video{
+    padding-left : 2vw;
+    padding-top : 4vh;
+    width:37vw;
+}
+
+  /* 상단 비디오와 사진 섹션 */
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+  }
+
+
+  
+  .video, .photo {
+    width: 45%; /* 양쪽으로 나뉘게 하기 위해 */
+    height: 70vh;
+    padding-bottom : 2vh;
+    background-color:transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+  }
+
+  .photo1{
+    padding-left: 8%;
+  }
+  .adds_image{
+    width: 44vw;
+  }
+
+  .photo2{
+    background-color : transparent;
+    padding-right: 3%;
+  }
+
+  .photo3{
+    background-color : transparent;
+
+    padding-top : 4%;
+    padding-right: 5%;
+    width:53%;
+  }
+  
+  
+  .mission{
+    padding-top : 5vh;
+    width: 85vw;
+  }
+
+
+  .photo{
+    padding-left : 0;
+    width: 50vw;
+    padding-top : 10vh;
+  }
+
+  #drone_ex{
+    padding-top:4vh;
+  }
+  
+  /* 텍스트 섹션 */
+  .text-section {
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    font-size: 1.4vw;
+    padding: 2vh 0;
+    padding-top : 10vh;
+    font-family : nanum;
+    margin-bottom: 2vh;
+  }
+
+  .text-section3 {
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    font-size: 1.4vw;
+    padding: 2vh 0;
+    padding-top : 2.5vh;
+    font-family : nanum;
+    margin-bottom: 2vh;
+  }
+
+
+  .text-section2 {
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 2vh 0;
+    padding-top : 3vh;
+    font-family : nanum;
+    margin-bottom: 2vh;
+  }
+  
+  /* 중간 큰 사진 */
+  .middle-photo {
+    width: 100%;
+    height: 50vh;
+    background-color:transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    margin-bottom: 2vh;
+  }
+  
+  /* 가로로 나열된 사진 3개 */
+  .photo-row {
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    width: 80vw;
+  }
+  
+  .photo-row .photo {
+    width: 32%;
+    height: 30vh;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+  }

@@ -5,6 +5,9 @@ import Section2 from './components/Section2';
 import Section3 from './components/Section3';
 import Section4 from './components/Section4';
 import Section5 from './components/Section5';
+import Section6 from './components/Section6';
+import Section7 from './components/Section7';
+import Section8 from './components/Section8';
 import BouncyCircle from './components/BouncyCircle';
 import FloatingCircle from './components/FloatingCircle';
 import './styles/App.css'; // 스타일을 import
@@ -38,6 +41,18 @@ const App = () => {
 
       <section id="section5" className="section">
         <Section5/>
+      </section>
+
+      <section id="section6" className="section">
+        <Section6/>
+      </section>
+
+      <section id="section7" className="section">
+        <Section7/>
+      </section>
+
+      <section id="section8" className="section">
+        <Section8/>
       </section>
     </div>
   );

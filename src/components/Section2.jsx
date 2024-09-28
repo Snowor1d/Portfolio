@@ -77,9 +77,9 @@ const Section2 = () => {
 
                 <div className={`section2_title3 ${contentIndex === 2 ? 'slide-in' : 'slide-out'}`}>
                     <p className="explain_head"></p><br />
-                    <p className="explain_me"> 세상에는 배울 것도 많고 흥미로운 것도 너무 많은 것 같습니다. <br/><br/>
+                    <p className="explain_me"> 세상에는 배울 것이 참 많습니다. <br/><br/>
                                                보다 넓은 세상을 만드는 사람이 되고 싶습니다. 사람들과 끊임없이 영감을 주고 받고 싶습니다. <br/>
-                                               <br/>이를 위해 대학을 다니는 지금, 항상 새로운 것에 도전하고 경험하고 있습니다. 아래는 이에 대한 간략한 기록입니다.<br/>
+                                               <br/>대학을 다니는 지금, 이를 위해 항상 새로운 것에 도전하고 경험하고 있습니다. 아래는 이에 대한 간략한 기록입니다.<br/>
                                                
                     </p>
                 </div>        

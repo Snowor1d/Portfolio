@@ -70,12 +70,28 @@
 
   #section5{
     padding-top : 0px;
+    background-color : white;
+  }
+
+  #section6{
+    padding-top : 0px;
+    background-color : rgb(49, 82, 62);
+  }
+
+  #section7{
+    padding-top : 0px;
+    background-color : #ecdbec;
+  }
+
+  #section8{
+    padding-top : 0px;
+    background-color : #100e7a;
   }
 
   .section3_space{
     height:20vh;
     width:100%;
-    background-color: #E5C7D1;
+    background-color:  #E5C7D1
   }
 
   .content {
@@ -208,5 +224,12 @@
       padding-left: 0;
       padding-top: 20px;
     }
+  }
+  
+
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 2vh 0;
   }
   

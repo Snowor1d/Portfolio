@@ -1,0 +1,191 @@
+@font-face {
+    font-family:"nanum_b";
+    src : url(../../assets/fonts/NanumBarunGothicBold.ttf);
+}
+
+@font-face {
+    font-family:"nanum";
+    src : url(../../assets/fonts/NanumBarunGothic.ttf);
+}
+
+
+@font-face {
+    font-family:"nanum_l";
+    src : url(../../assets/fonts/NanumBarunGothicLight.ttf);
+}
+
+@font-face {
+    font-family:"nanum_s";
+    src : url(../../assets/fonts/NanumSquareR.ttf);
+}
+
+@font-face {
+    font-family:"profile";
+    src : url(../../assets/fonts/GowunBatang-Regular.ttf);
+}
+
+
+.image-section{
+    width:50vw;
+}
+
+.im2{
+    width:10vw;
+}
+.im3{
+    width:4vw;
+}
+
+.wholecontent7{
+    padding-top: 15vh;
+    width:100%;
+    height:100%;
+}
+.main_7_content{
+    font-family: nanum;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 2vh; /* 텍스트와 이미지 사이 간격 */
+
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 80%; /* 이미지 크기 조정 */
+    height: auto;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.image-row img {
+    width: 30vw; /* 병렬 이미지 크기 설정 */
+    height: auto;
+}
+
+figcaption {
+    font-size: 1.5vw;
+    font-family: nanum_l;
+    color: black;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.section7_main {
+    padding-top:10vh;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+    position: relative;
+    width: 50vw;
+    height: 80%;
+    padding-left: 50vw;
+    top: -15vh; /* 추가: section5_main을 위로 올리기 위해 top 값 조정 */
+    background-color : #ecdbec;
+}
+.slide-in {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide-out {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.section7_title, .section7_title2 {
+    font-size: 3.5vw;
+    font-weight: bold;
+    position: absolute;
+    font-family:nanum_b;
+    line-height : 1.5;
+    left: 10vw;
+    color: black;
+}
+
+.section7_title2 {
+    padding-top : 5vh;
+    font-family: nanum_l;
+    left:10vw;
+    font-size: 1.6vw;
+}
+
+.toggle_button7 {
+    margin-left: 1.5vw;
+    margin-top: 4vw;
+    border-radius : 1vw;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background-color : transparent;
+}
+
+.arrow {
+    width: 50px;
+    height: auto;
+}
+
+.imgContainer7{
+    padding-top:10vh;
+    width: 4vw;
+    padding-left: 13vw;
+}
+
+.main_image{
+    width: 70vw;
+}
+
+.ba_image{
+    width: 50vw;
+}
+
+.project_description7_2{
+    color : black;
+    font-family: nanum_b;
+    font-size:2vw;
+    padding-top : 10vh;
+    padding-left:13vw;
+    background-color: rgb(256, 256, 256);
+    width:100%;
+    height : 145vh;
+}
+
+.project_description7{
+    color : black;
+    font-family: nanum_b;
+    font-size:2vw;
+    padding-top : 10vh;
+    padding-left:11vw;
+    background-color: rgb(240, 240, 240);
+    width:100%;
+    height : 200vh;
+}
+.small_name{
+    position:absolute;
+    font-size:1.5vw;
+    font-family : nanum_l;
+    left: 13%;
+}
+
+.projectName{
+    bottom:0;
+}
+
+.project_explanation7{
+    font-size : 1.3vw;
+    font-family: nanum;
+    padding-top: 5vh;
+    line-height : 1.4;
+    
+}
