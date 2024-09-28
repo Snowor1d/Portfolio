@@ -151,11 +151,13 @@ figcaption {
 }
 
 .flight1{
-    height: 60vh;
+    height: 30vw;
+    padding-right:1vw;
 }
 
 .flight2{
-    height: 60vh;
+    padding-left : 1vw;
+    height: 30vw;
 }
 
 .project_description8{
@@ -306,7 +308,8 @@ figcaption {
   }
 
   .photo1{
-    padding-left: 8%;
+    padding-left: 5vw;
+    width:2
   }
   .adds_image{
     width: 44vw;
@@ -314,6 +317,7 @@ figcaption {
 
   .photo2{
     background-color : transparent;
+    height : 50vh;
     padding-right: 3%;
   }
 
@@ -373,7 +377,7 @@ figcaption {
     text-align: center;
     font-size: 1.4vw;
     padding: 2vh 0;
-    padding-top : 3vh;
+    padding-top : 6vh;
     font-family : nanum;
     margin-bottom: 2vh;
   }
@@ -410,3 +414,124 @@ figcaption {
     justify-content: center;
     font-size: 2vw;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* 기본 설정 */
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* 너비를 100%로 설정해 부모 요소에 맞게 확장 */
+}
+
+.image-section img {
+    max-width: 100%; /* 이미지 크기를 부모 요소에 맞게 조정 */
+    height: auto;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.image-row img {
+    width: 100%; /* 이미지 너비를 부모 요소의 100%로 설정 */
+    max-width: 30vw; /* 최대 너비를 뷰포트의 30%로 제한 */
+    height: auto;
+}
+
+.project_description8,
+.project_description8_adds,
+.project_description8_2,
+.project_description8_3 {
+    padding: 5vh 8vw; /* 상하 패딩을 뷰포트 높이 단위로 조정 */
+    font-size: 1.5vw; /* 글꼴 크기를 뷰포트 너비로 조정해 유연한 텍스트 크기 */
+    line-height: 1.4;
+}
+
+.middle-photo {
+    width: 100%;
+    height: auto; /* 높이를 자동으로 맞춤 */
+    margin-bottom: 2vh;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    width: 100%; /* 사진 행의 너비를 100%로 설정 */
+}
+
+.photo-row .photo {
+    width: 32%; /* 사진 3개가 나란히 있을 때 너비 조정 */
+    height: auto;
+}
+
+/* 작은 화면을 위한 미디어 쿼리 */
+@media (max-width: 1024px) {
+    .image-row img {
+        width: 45vw; /* 작은 화면에서 이미지 크기 조정 */
+    }
+
+    .project_description8,
+    .project_description8_adds,
+    .project_description8_2,
+    .project_description8_3 {
+        font-size: 2.5vw; /* 작은 화면에서 텍스트 크기 증가 */
+        padding: 5vh 5vw;
+    }
+
+
+    .project_description8{
+        height: 230vh;
+    }
+
+    .project_description8_2{
+        height: 90vh;
+    }
+
+    .project_description8_3{
+        height: 80vh;
+    }
+
+    .project_description8_adds{
+        height: 230vh;
+    }
+
+    .photo-row .photo {
+        width: 48%; /* 화면이 좁아졌을 때 사진 크기 조정 */
+    }
+}
+
+/* 모바일 화면을 위한 미디어 쿼리 */
+@media (max-width: 768px) {
+    .image-section {
+        width: 100%; /* 모바일에서 이미지 섹션 너비 조정 */
+    }
+
+    .image-row img {
+        width: 80vw; /* 모바일에서 이미지 크기를 80%로 조정 */
+    }
+
+    .project_description8,
+    .project_description8_adds,
+    .project_description8_2,
+    .project_description8_3 {
+        font-size: 3.5vw; /* 모바일에서 텍스트 크기 더 키우기 */
+        padding: 5vh 3vw;
+    }
+}

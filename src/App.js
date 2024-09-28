@@ -25,6 +25,7 @@ const App = () => {
         {/* <img src={logo} className="first_snow_image" />
         <p>Hello Snowor1d!</p> */}
       </section>
+      <div id='guide'> 일반 모니터 화면에서 보시는 것을 추천합니다.</div>
 
       <section id="section2" className="section">
         <Section2/>

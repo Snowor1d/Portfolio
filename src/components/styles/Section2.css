@@ -48,6 +48,10 @@
     padding-bottom : 10px;
 }
 
+#guide{
+    font-family : nanum_l;
+}
+
 .profile_description{
     line-height: 1.5;
     font-family:nanum;

@@ -82,6 +82,14 @@
     padding-top : 0px;
     background-color : #ecdbec;
   }
+  #guide{
+    padding-bottom : 4vh;
+    width:100%;
+    text-align : center;
+    font-family : nanum_l;
+    color : grey;
+    background-color : #18191b;
+  }
 
   #section8{
     padding-top : 0px;
