@@ -32,6 +32,12 @@
     font-size: 1.2rem; /* 반응형 폰트 크기 */
   }
   
+#start{
+    padding-top : 0px;
+    height:150vh;
+    background-color:white;
+}
+
   /* 각 섹션 */
   .section {
     min-height: 100vh; /* 각 섹션의 높이를 뷰포트 전체로 설정 */
@@ -62,6 +68,10 @@
     min-height : 420vh;
     background-color : #D0CCE5;
   }
+  #section4_5{
+    min-height: 80vh;
+    background-color: #cec6f8;
+  }
 
   #section4 {
     height:120vh;
@@ -70,12 +80,12 @@
 
   #section5{
     padding-top : 0px;
-    background-color : white;
+    background-color : #f0d6ee;
   }
 
   #section6{
     padding-top : 0px;
-    background-color : rgb(49, 82, 62);
+    background-color : rgb(97, 148, 118);
   }
 
   #section7{
@@ -87,15 +97,29 @@
     width:100%;
     text-align : center;
     font-family : nanum_l;
+    line-height:1.4;
     color : grey;
     background-color : #18191b;
   }
 
   #section8{
     padding-top : 0px;
-    background-color : #100e7a;
+    background-color : #bac5f7;
   }
 
+  #section8_9{
+    min-height: 60vh;
+    background-color: #ccdbd0;
+  }
+  #section9{
+    min-height: 100vh;
+    background-color: #ebeeec;
+  }
+  #section10{
+    min-height: 150vh;
+    background-color:  #bdc8dd;
+    
+  }
   .section3_space{
     height:20vh;
     width:100%;

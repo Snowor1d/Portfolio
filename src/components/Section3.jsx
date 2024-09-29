@@ -48,7 +48,6 @@ const Section3 = () => {
     { year: 2021, month: '02', title: '대한민국 공군 입대', description: '~ 2022.11.14', side: 'left'},
     { year: 2022, month: '08', title: 'Design / Illustrator Project', description: '~ 2022.10', side: 'left' },
     { year: 2023, month: '01', title: '삼성 샤이닝 스타 2기', description: '', side: 'right' },
-    { year: 2023, month: '01', title: 'HEVEN 자율차팀', description: '~ 2024.08', side: 'left' },
     { year: 2023, month: '04', title: '23-1 성적우수장학생', description: '', side: 'right' },
     { year: 2023, month: '04', title: '한국로봇항공기 대회', description: '~ 2023.07', side: 'left' },
     { year: 2023, month: '07', title: '그룹홈 미술 멘토링 봉사', description: ' ~ 현재', side: 'left' },

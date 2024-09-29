@@ -1,0 +1,113 @@
+@font-face {
+    font-family:"nanum_b";
+    src : url(../../assets/fonts/NanumBarunGothicBold.ttf);
+}
+
+@font-face {
+    font-family:"nanum";
+    src : url(../../assets/fonts/NanumBarunGothic.ttf);
+}
+
+
+@font-face {
+    font-family:"nanum_l";
+    src : url(../../assets/fonts/NanumBarunGothicLight.ttf);
+}
+
+@font-face {
+    font-family:"nanum_s";
+    src : url(../../assets/fonts/NanumSquareR.ttf);
+}
+
+@font-face {
+    font-family:"profile";
+    src : url(../../assets/fonts/GowunBatang-Regular.ttf);
+}
+
+@font-face{
+    font-family:"hak";
+    src: url(../../assets/fonts/Hakgyoansim-Badasseugi-TTF-L.ttf);
+
+}
+
+
+@font-face{
+    font-family:"hak-b";
+    src: url(../../assets/fonts/Hakgyoansim-Badasseugi-TTF-B.ttf);
+
+}
+
+#container10{
+    background-color:rgb(241, 241, 241);
+}
+
+.Big_name3{
+    background-color :#bdc8dd;
+    width:100vw;
+    height:10;
+    font-size:6vw;
+    padding-left: 10vw;
+    padding-bottom : 20vh;
+    color : black;
+    font-family: profile;
+}
+
+#mento{
+    width: 40vw;
+    padding-right:5vw;
+}
+#mento2{
+    width:40vw;
+}
+
+#bongsa{
+    width:45vw;
+    height:50vh;
+    padding-left:5vw;
+    padding-right:1vw;
+}
+#bongsa2{
+    width:15vw;
+    height:50vh;
+    padding-right:1vw;
+}
+#bongsa3{
+    width:10vw;
+    height:50vh;
+}
+
+.section10_main{
+    width:100vw;
+    display:flex;
+    padding-top:10vh;
+    padding-left:10vw;
+}
+
+
+.section10_main2{
+    width:100vw;
+    display:flex;
+    padding-top:4vh;
+    padding-left:10vw;
+}
+
+
+.activity_name{
+    padding-left:10vw;
+    padding-top:10vh;
+    font-family:nanum;
+    font-size:2vw;
+    width:100vw;
+    height:10vh;
+    color:black;
+}
+
+.activity_explain{
+    padding-left:10vw;
+    padding-top:5vh;
+    font-family:nanum_l;
+    font-size:1.5vw;
+    width:100vw;
+    height:20vh;
+    color:black;
+}

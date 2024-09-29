@@ -24,6 +24,19 @@
     src : url(../../assets/fonts/GowunBatang-Regular.ttf);
 }
 
+@font-face{
+    font-family:"hak";
+    src: url(../../assets/fonts/Hakgyoansim-Badasseugi-TTF-L.ttf);
+
+}
+
+
+@font-face{
+    font-family:"hak-b";
+    src: url(../../assets/fonts/Hakgyoansim-Badasseugi-TTF-B.ttf);
+
+}
+
 
 .my_pic{
     padding-top : 5vw;
@@ -40,11 +53,11 @@
 }
 
 .introduce_me{
-    font-family: nanum_l;
+    font-family: hak;
     padding-bottom : 20px;
 }
 .job{
-    font-family: nanum_b;
+    font-family: hak-b;
     padding-bottom : 10px;
 }
 
@@ -56,7 +69,7 @@
     line-height: 1.5;
     font-family:nanum;
     font-weight : 500;
-    font-size : 2vw;
+    font-size : 1.5vw;
 }
 
 .profile_description2{

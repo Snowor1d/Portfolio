@@ -11,6 +11,9 @@ const MenuBar = () => {
       <Link to="section6" smooth={true} duration={500}>Design</Link>
       <Link to="section7" smooth={true} duration={500}>Engineering</Link>
       <Link to="section8" smooth={true} duration={500}>Mobility & Robotics</Link>
+      <Link to="section8_9" smooth={true} duration={500}>Courses</Link>
+      <Link to="section10" smooth={true} duration={500}>Activites</Link>
+      <Link to="contact" smooth={true} duration={500}>Contact</Link>
     </div>
   );
 };

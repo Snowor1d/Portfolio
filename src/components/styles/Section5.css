@@ -25,7 +25,7 @@
 }
 .main_5{
     /* background-color : #4c4b4d; */
-    background-color : white;
+    background-color :white;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -104,7 +104,7 @@ figcaption {
     height: 80%;
     padding-left: 50vw;
     top: -15vh; /* 추가: section5_main을 위로 올리기 위해 top 값 조정 */
-    background-color : white;
+    background-color : #f0d6ee;
 }
 
 .slide-in {

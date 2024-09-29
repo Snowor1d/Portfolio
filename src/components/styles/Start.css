@@ -1,0 +1,73 @@
+@font-face {
+    font-family:"nanum_b";
+    src : url(../../assets/fonts/NanumBarunGothicBold.ttf);
+}
+
+@font-face {
+    font-family:"nanum";
+    src : url(../../assets/fonts/NanumBarunGothic.ttf);
+}
+
+
+@font-face {
+    font-family:"nanum_l";
+    src : url(../../assets/fonts/NanumBarunGothicLight.ttf);
+}
+
+@font-face {
+    font-family:"nanum_s";
+    src : url(../../assets/fonts/NanumSquareR.ttf);
+}
+
+@font-face {
+    font-family:"profile";
+    src : url(../../assets/fonts/GowunBatang-Regular.ttf);
+}
+
+@font-face{
+    font-family:"hak";
+    src: url(../../assets/fonts/Hakgyoansim-Badasseugi-TTF-L.ttf);
+
+}
+
+
+@font-face{
+    font-family:"hak-b";
+    src: url(../../assets/fonts/Hakgyoansim-Badasseugi-TTF-B.ttf);
+
+}
+
+
+.start{
+    padding-top:30vh;
+    width:100vw;
+    height:150vh;
+    position:relative;
+}
+.start::before{
+    content:"";
+    background-image : url(../../assets/images/fox_travel.jpg);
+    background-size:cover;
+    opacity:0.3;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+.final_greeting{
+    width:100vw;
+    text-align:center;
+    font-family:profile;
+    color:black;
+    font-size:3vw;
+    font-weight:bold;
+}
+
+.contact{
+    width:100vw;
+    text-align:center;
+    font-family:profile;
+    color:black;
+    font-size:2vw;
+}

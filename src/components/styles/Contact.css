@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "googleNoto";
+    src : url(../../assets/fonts/NotoSansThai-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+    font-family:"googlePacifico";
+    src : url(../../assets/fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family:"googleItim";
+    src : url(../../assets/fonts/Itim-Regular.ttf);
+}
+
+.child_text_main{
+    padding-left:27vw;
+    padding-top:17vw;
+    height:10vw;
+    width:20vw;
+    text-align : bottom;
+}
+
+.child_text_explain{
+    padding-left:37vw;
+    padding-top:5vw;
+}
+
+
+.title_text{
+    font-family: googleitim;
+    font-size: 5vw;
+    color: #DDDDDD;
+    text-align: right;
+
+}
+
+
+
+

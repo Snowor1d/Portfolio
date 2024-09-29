@@ -16,7 +16,7 @@ import './styles/Section2.css';
 
 const Section2 = () => {
     const [text, setText] = useState("안녕하세요 대학생 \n김세헌입니다.");
-    const words = ["UX 디자이너", "미래 모빌리티 연구자", "로보틱스 엔지니어"];
+    const words = ["UX 디자이너", "미래 모빌리티를 연구하는", "로보틱스 엔지니어", "달리기를 잘하는", "겨울산을 잘 타는"];
     const [currentIndex, setCurrentIndex] = useState(0);
     const [animate, setAnimate] = useState(false);
     const [contentIndex, setContentIndex] = useState(0);
