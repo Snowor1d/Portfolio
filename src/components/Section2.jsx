@@ -69,8 +69,8 @@ const Section2 = () => {
                                                         - &nbsp; 기계공학 (1전공), 소프트웨어 (2전공)<br/> </p>
                     <p className='profile_description2'> <br/><br/> &nbsp; ★ &nbsp; 좋아하는 것 &nbsp; : &nbsp; 해질녘 러닝, 겨울철 등산, 눈 내리는 아주 추운 겨울밤, 러닝하고 먹는 수박,<br/> 
                                                         &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 보더콜리, 구제 신발 사서 커스텀하기, 디지털 페인팅, 전공 공부하기 (가끔해야 함),
-                                                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 가족과 함께하는 토요일 오전, 새로운 영감을 주는 책 보기, 오래된 친구들과 여행가기,
-                                                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 담백하게 요리된 해산물 스파게티, 등등 ..
+                                                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 가족과 함께하는 토요일 오전, 웨이트하고 먹는 소고기, 오래된 친구들과 여행가기,
+                                                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 해산물 스파게티, 등등 ..
                                                         <br/> </p>
 
                 </div>
